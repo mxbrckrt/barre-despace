@@ -160,6 +160,15 @@ function setdepth(depth)
     mgraphics.redraw();
 }
 
+// Fonction pour définir la valeur de pan depuis l'extérieur
+function setExternalPan(value) {
+    setpan(value); // Utilise la fonction existante pour définir la valeur
+}
+
+// Fonction pour définir la valeur de depth depuis l'extérieur
+function setExternalDepth(value) {
+    setdepth(value); // Utilise la fonction existante pour définir la valeur
+}
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////// Set Active State of Object //////////////////////////
